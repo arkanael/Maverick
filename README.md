@@ -1,12 +1,12 @@
 # Maverick (Projeto em Desenvolvimento)
 Tecnologias aplicada:
 
-.ASPNET MVC
-.Entity Framework
-.Injeção de Dependência Simple Injector
-.TDD Test Driven Development
-.BDD  Behavior Driven Development
-.SpecFlow
+ASPNET MVC
+Entity Framework
+Injeção de Dependência Simple Injector
+TDD Test Driven Development
+BDD  Behavior Driven Development
+SpecFlow
 
 TDD - Test Driven Development
 Desenvolvimento orientado a testes.
