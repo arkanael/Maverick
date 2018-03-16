@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Modelagem de Entidades", "0 - Modelagem de Entidades", "{A0AF2128-AE82-4D01-B860-9C3C711AB251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Sistema", "1 - Sistema", "{20511869-DF55-4CDF-B90C-95CFE48728ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Camada de Apresentação", "1.1 - Camada de Apresentação", "{885F3A89-7A61-4708-B171-E24EEE8247A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Camada de Acesso a Dados", "1.2 - Camada de Acesso a Dados", "{6E106E92-B73D-4C8C-86C9-213706A854CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.1 - Contratos", "1.2.1 - Contratos", "{67731512-929B-4E86-8BDB-A92C231A723B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.2 - Implementação", "1.2.2 - Implementação", "{D0CDCFE8-E1D8-46D3-8E93-183559E32D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick.Entidades", "Maverick.Entidades\Maverick.Entidades.csproj", "{28886C23-45F5-49B8-85B2-3AE03C087691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick.Apresentacao.MVC", "Maverick.Apresentacao.MVC\Maverick.Apresentacao.MVC.csproj", "{CA2638CA-BD45-469C-9FBE-2BAB5900311D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick.Data.Contratos", "Maverick.Data.Contratos\Maverick.Data.Contratos.csproj", "{12BCCB88-40D5-43B6-AB1D-82E50B82F92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick.Data.Tests", "Maverick.Data.Tests\Maverick.Data.Tests.csproj", "{31588809-5486-478C-948C-F8E8D6220DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick.Data.Implementacao", "Maverick.Data.Implementacao\Maverick.Data.Implementacao.csproj", "{9A378F2A-57BB-46E6-A184-39232AF6FF81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.3", "1.2.3", "{10020EF5-F27F-4D13-98D0-88F5173E3294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28886C23-45F5-49B8-85B2-3AE03C087691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28886C23-45F5-49B8-85B2-3AE03C087691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28886C23-45F5-49B8-85B2-3AE03C087691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28886C23-45F5-49B8-85B2-3AE03C087691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2638CA-BD45-469C-9FBE-2BAB5900311D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2638CA-BD45-469C-9FBE-2BAB5900311D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2638CA-BD45-469C-9FBE-2BAB5900311D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2638CA-BD45-469C-9FBE-2BAB5900311D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BCCB88-40D5-43B6-AB1D-82E50B82F92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BCCB88-40D5-43B6-AB1D-82E50B82F92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BCCB88-40D5-43B6-AB1D-82E50B82F92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BCCB88-40D5-43B6-AB1D-82E50B82F92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31588809-5486-478C-948C-F8E8D6220DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31588809-5486-478C-948C-F8E8D6220DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31588809-5486-478C-948C-F8E8D6220DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31588809-5486-478C-948C-F8E8D6220DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A378F2A-57BB-46E6-A184-39232AF6FF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A378F2A-57BB-46E6-A184-39232AF6FF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A378F2A-57BB-46E6-A184-39232AF6FF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A378F2A-57BB-46E6-A184-39232AF6FF81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{885F3A89-7A61-4708-B171-E24EEE8247A4} = {20511869-DF55-4CDF-B90C-95CFE48728ED}
+		{6E106E92-B73D-4C8C-86C9-213706A854CD} = {20511869-DF55-4CDF-B90C-95CFE48728ED}
+		{67731512-929B-4E86-8BDB-A92C231A723B} = {6E106E92-B73D-4C8C-86C9-213706A854CD}
+		{D0CDCFE8-E1D8-46D3-8E93-183559E32D97} = {6E106E92-B73D-4C8C-86C9-213706A854CD}
+		{28886C23-45F5-49B8-85B2-3AE03C087691} = {A0AF2128-AE82-4D01-B860-9C3C711AB251}
+		{CA2638CA-BD45-469C-9FBE-2BAB5900311D} = {885F3A89-7A61-4708-B171-E24EEE8247A4}
+		{12BCCB88-40D5-43B6-AB1D-82E50B82F92C} = {67731512-929B-4E86-8BDB-A92C231A723B}
+		{31588809-5486-478C-948C-F8E8D6220DB6} = {10020EF5-F27F-4D13-98D0-88F5173E3294}
+		{9A378F2A-57BB-46E6-A184-39232AF6FF81} = {D0CDCFE8-E1D8-46D3-8E93-183559E32D97}
+		{10020EF5-F27F-4D13-98D0-88F5173E3294} = {20511869-DF55-4CDF-B90C-95CFE48728ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333E7A50-5313-45C9-A592-C4DEBA73D8F7}
+	EndGlobalSection
+EndGlobal
